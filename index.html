@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MindSathi AI</title>
+  <meta name="description" content="A gentle, multilingual AI companion for emotional support, reflection and calm.">
+  <meta name="theme-color" content="#8970CC">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%238970CC'/%3E%3Cpath d='M16 24s-8-5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 24 13c0 6-8 11-8 11z' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+Malayalam:wght@400;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#/home" aria-label="MindSathi AI home">
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+      </span>
+      <span class="brand-name">MindSathi <b>AI</b></span>
+    </a>
+    <div class="top-actions">
+      <label class="lang-pill">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>
+        <span class="sr-only">Language</span>
+        <select id="lang-select"></select>
+      </label>
+      <button class="btn btn-danger" id="emergency-btn" type="button">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M12 8v4M12 15h.01"/></svg>
+        <span id="emergency-label">Emergency Help</span>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <nav id="nav" class="nav" aria-label="Main"></nav>
+    <main id="view" tabindex="-1"></main>
+  </div>
+
+  <footer class="site-foot">
+    MindSathi AI provides general emotional support and information. It is not a replacement for a qualified mental-health professional.
+  </footer>
+
+  <dialog id="emergency" aria-labelledby="em-title"></dialog>
+
+  <dialog id="welcome" aria-labelledby="wl-title">
+    <form method="dialog" id="welcome-form" class="dlg-body">
+      <h2 id="wl-title">Welcome to MindSathi AI</h2>
+      <p class="muted">A calm space to talk, reflect and take a breath. What should we call you?</p>
+      <label class="field">Your name (optional)
+        <input id="wl-name" type="text" autocomplete="given-name" maxlength="40" placeholder="Your name">
+      </label>
+      <label class="field">Preferred language
+        <select id="wl-lang"></select>
+      </label>
+      <button class="btn btn-primary" type="submit">Get started</button>
+    </form>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/emotion.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
