@@ -12,5 +12,5 @@
      { reply: "text to show the user" }
 ------------------------------------------------------------------- */
 window.MINDSATHI_CONFIG = {
-  apiUrl: ""
+  apiUrl: "/api/chat"
 };

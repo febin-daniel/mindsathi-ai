@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MindSathi Admin</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <style>
+    .adm { max-width: 960px; margin: 0 auto; padding: 24px 16px 56px; color: #3b2d63; }
+    .adm-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 20px; }
+    .adm-top h1 { margin: 0; font-size: 28px; }
+    .adm-top p { margin: 4px 0 0; color: #7a6f99; font-size: 14px; }
+    .adm-logout { padding: 8px 16px; border-radius: 999px; border: 1px solid #d9cff5; background: #fff; color: #6d4fc2; text-decoration: none; font-weight: 600; font-size: 14px; }
+    .adm-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+    .adm-card { background: #fff; border: 1px solid #e6defa; border-radius: 18px; padding: 20px; box-shadow: 0 6px 20px rgba(109, 79, 194, 0.07); margin-bottom: 16px; }
+    .adm-card h2 { margin: 0 0 14px; font-size: 18px; }
+    .adm-stat { text-align: center; }
+    .adm-stat b { display: block; font-size: 30px; color: #6d4fc2; }
+    .adm-stat span { color: #7a6f99; font-size: 13px; }
+    .adm-row { display: flex; align-items: center; gap: 10px; margin: 10px 0; font-size: 14px; }
+    .adm-row .name { width: 80px; text-transform: capitalize; }
+    .adm-bar { flex: 1; height: 12px; background: #f0eafc; border-radius: 999px; overflow: hidden; }
+    .adm-bar i { display: block; height: 100%; border-radius: 999px; background: #8970cc; }
+    .adm-bar i.sad { background: #4aa3df; }
+    .adm-bar i.anxious { background: #f0a43a; }
+    .adm-bar i.angry { background: #e5534b; }
+    .adm-bar i.happy { background: #43b581; }
+    .adm-bar i.stressed { background: #b06ad9; }
+    .adm-bar i.neutral { background: #98a2b3; }
+    .adm-row .num { width: 30px; text-align: right; font-weight: 600; }
+    .adm table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    .adm th { text-align: left; color: #7a6f99; font-weight: 600; padding: 8px 10px; border-bottom: 1px solid #e6defa; }
+    .adm td { padding: 10px; border-bottom: 1px solid #f0eafc; vertical-align: top; }
+    .adm .tag { display: inline-block; padding: 2px 10px; border-radius: 999px; background: #f0eafc; color: #6d4fc2; font-size: 12px; font-weight: 600; }
+    .adm-two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .adm textarea, .adm select { width: 100%; box-sizing: border-box; padding: 10px 12px; border: 1px solid #d9cff5; border-radius: 12px; background: #fcfbff; color: #3b2d63; font: inherit; margin-bottom: 10px; }
+    .adm-selects { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .adm button { padding: 10px 20px; border: 0; border-radius: 999px; background: #6d4fc2; color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+    .adm button:hover { background: #5a3fa8; }
+    #result { margin: 12px 0 0; color: #7a6f99; }
+    @media (max-width: 700px) { .adm-two, .adm-stats { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+{% set emotions = ['sad','anxious','angry','happy','stressed','neutral'] %}
+{% set langs = [('en','English'),('hi','Hindi'),('ml','Malayalam'),('ta','Tamil'),('te','Telugu'),('kn','Kannada'),('bn','Bengali'),('mr','Marathi'),('gu','Gujarati'),('pa','Punjabi')] %}
+<div class="adm">
+
+  <div class="adm-top">
+    <div>
+      <h1>MindSathi Admin</h1>
+      <p>Manage training data and retrain the emotion model.</p>
+    </div>
+    <a class="adm-logout" href="/admin/logout">Log out</a>
+  </div>
+
+  <div class="adm-stats">
+    <div class="adm-card adm-stat"><b>{{ total }}</b><span>Total samples</span></div>
+    <div class="adm-card adm-stat"><b>{{ counts|length }}</b><span>Emotions</span></div>
+    <div class="adm-card adm-stat"><b>{{ counts.values()|min }}</b><span>Fewest in one emotion</span></div>
+  </div>
+
+  <div class="adm-card">
+    <h2>Samples per emotion</h2>
+    {% for emotion, n in counts.items() %}
+    <div class="adm-row">
+      <span class="name">{{ emotion }}</span>
+      <div class="adm-bar"><i class="{{ emotion }}" style="width: {{ (n * 100 / (counts.values()|max))|round|int }}%"></i></div>
+      <span class="num">{{ n }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="adm-card">
+    <h2>Last 10 sentences added</h2>
+    <table>
+      <tr><th>Sentence</th><th>Emotion</th><th>Lang</th></tr>
+      {% for text, emotion, lang in recent %}
+      <tr><td>{{ text }}</td><td><span class="tag">{{ emotion }}</span></td><td>{{ lang }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <div class="adm-two">
+    <div class="adm-card">
+      <h2>Add one sentence</h2>
+      <form method="post" action="/admin/add">
+        <textarea name="text" rows="4" placeholder="Type a sentence" required></textarea>
+        <div class="adm-selects">
+          <select name="emotion">{% for e in emotions %}<option>{{ e }}</option>{% endfor %}</select>
+          <select name="language">{% for code, label in langs %}<option value="{{ code }}">{{ label }}</option>{% endfor %}</select>
+        </div>
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <div class="adm-card">
+      <h2>Add many at once</h2>
+      <form method="post" action="/admin/bulk">
+        <textarea name="lines" rows="4" placeholder="One sentence per line" required></textarea>
+        <div class="adm-selects">
+          <select name="emotion">{% for e in emotions %}<option>{{ e }}</option>{% endfor %}</select>
+          <select name="language">{% for code, label in langs %}<option value="{{ code }}">{{ label }}</option>{% endfor %}</select>
+        </div>
+        <button type="submit">Add all</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="adm-card">
+    <h2>Model</h2>
+    <p style="margin-top:0; color:#7a6f99;">After adding data, retrain so the website uses the new model.</p>
+    <button id="retrain" type="button">Retrain model</button>
+    <p id="result"></p>
+  </div>
+
+</div>
+<script>
+  document.getElementById("retrain").onclick = async () => {
+    const out = document.getElementById("result");
+    out.textContent = "Training, please wait...";
+    try {
+      const r = await fetch("/admin/retrain", { method: "POST" });
+      const d = await r.json();
+      out.textContent = "Done. Samples: " + d.samples + ", accuracy: " + d.accuracy;
+    } catch (e) {
+      out.textContent = "Training failed. Check the terminal for the error.";
+    }
+  };
+</script>
+</body>
+</html>

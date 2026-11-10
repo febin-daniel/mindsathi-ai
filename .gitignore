@@ -1,2 +1,11 @@
 .DS_Store
 node_modules/
+venv/
+instance/
+__pycache__/
+*.pyc
+.env
+
+cloudflared.exe
+tunnel.log
+*.zip

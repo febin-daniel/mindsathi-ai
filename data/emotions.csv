@@ -1,0 +1,349 @@
+text,emotion,language
+I feel very sad today,sad,en
+I am so lonely and hopeless,sad,en
+I feel like crying all the time,sad,en
+Nothing makes me happy anymore,sad,en
+I am very worried about my exams,anxious,en
+I cannot stop overthinking everything,anxious,en
+My heart is racing and I feel scared,anxious,en
+I am nervous about tomorrow,anxious,en
+I am so angry with my friend,angry,en
+I hate how unfair this is,angry,en
+He made me furious today,angry,en
+I am annoyed with everything,angry,en
+I am so happy today,happy,en
+I got good marks and feel great,happy,en
+Today was a wonderful day,happy,en
+I feel calm and peaceful,happy,en
+I have too much work and I am stressed,stressed,en
+I am overwhelmed with deadlines,stressed,en
+There is so much pressure on me,stressed,en
+I cannot handle all this workload,stressed,en
+I went to college today,neutral,en
+I had lunch and then studied,neutral,en
+It is a normal day,neutral,en
+I am reading a book,neutral,en
+എനിക്ക് വല്ലാതെ സങ്കടം തോന്നുന്നു,sad,ml
+ഞാൻ ഒറ്റയ്ക്കാണെന്ന് തോന്നുന്നു,sad,ml
+ഒന്നിലും സന്തോഷം കിട്ടുന്നില്ല,sad,ml
+എനിക്ക് കരയണമെന്ന് തോന്നുന്നു,sad,ml
+പരീക്ഷയെ കുറിച്ച് ഓർത്ത് എനിക്ക് പേടിയാണ്,anxious,ml
+നാളെ എന്ത് സംഭവിക്കുമെന്ന് ആലോചിച്ച് ടെൻഷനാണ്,anxious,ml
+എനിക്ക് വല്ലാത്ത ആശങ്ക തോന്നുന്നു,anxious,ml
+എനിക്ക് വളരെ ഭയം തോന്നുന്നു,anxious,ml
+എനിക്ക് അവനോട് വല്ലാത്ത ദേഷ്യമാണ്,angry,ml
+ഇത് വളരെ അന്യായമാണ്,angry,ml
+എനിക്ക് എല്ലാവരോടും ദേഷ്യം തോന്നുന്നു,angry,ml
+അവൻ എന്നെ ദേഷ്യം പിടിപ്പിച്ചു,angry,ml
+ഇന്ന് ഞാൻ വളരെ സന്തോഷത്തിലാണ്,happy,ml
+എനിക്ക് നല്ല മാർക്ക് കിട്ടി,happy,ml
+ഇന്നത്തെ ദിവസം വളരെ നല്ലതായിരുന്നു,happy,ml
+എനിക്ക് സമാധാനം തോന്നുന്നു,happy,ml
+എനിക്ക് ജോലി വളരെ കൂടുതലാണ്,stressed,ml
+സമയപരിധി കാരണം ഞാൻ തളർന്നു,stressed,ml
+എന്റെ മേൽ വലിയ സമ്മർദ്ദമുണ്ട്,stressed,ml
+ഇത്രയും ജോലി എനിക്ക് താങ്ങാൻ വയ്യ,stressed,ml
+ഞാൻ ഇന്ന് കോളേജിൽ പോയി,neutral,ml
+ഞാൻ ഉച്ചഭക്ഷണം കഴിച്ച് പഠിച്ചു,neutral,ml
+ഇന്ന് ഒരു സാധാരണ ദിവസമാണ്,neutral,ml
+ഞാൻ ഒരു പുസ്തകം വായിക്കുകയാണ്,neutral,ml
+I feel tired and low,sad,en
+I am very nervous about tomorrow,anxious,en
+I cannot sleep because of worry,anxious,en
+My mind keeps racing about the future,anxious,en
+I am scared I will fail,anxious,en
+I feel very empty today,sad,en
+Nothing makes me happy anymore,sad,en
+I miss how things used to be,sad,en
+I cry alone at night,sad,en
+I feel like nobody understands me,sad,en
+I am so furious right now,angry,en
+I hate how they treated me,angry,en
+I cannot stand this anymore,angry,en
+Everything is making me mad,angry,en
+I am sick of being ignored,angry,en
+I am so happy today,happy,en
+Life feels wonderful right now,happy,en
+I got great news and I am excited,happy,en
+I feel grateful for everything,happy,en
+Today was an amazing day,happy,en
+I have too much work and no time,stressed,en
+Deadlines are crushing me,stressed,en
+I feel overwhelmed with everything,stressed,en
+My exams are putting me under pressure,stressed,en
+I cannot handle this workload,stressed,en
+I went to college today,neutral,en
+I am reading a book,neutral,en
+I had lunch at noon,neutral,en
+Today is a normal day,neutral,en
+I am sitting at my desk,neutral,en
+मैं आज बहुत खुश हूँ,happy,hi
+आज का दिन बहुत शानदार रहा,happy,hi
+मुझे अच्छी खबर मिली है और मैं उत्साहित हूँ,happy,hi
+मुझे सब कुछ बहुत अच्छा लग रहा है,happy,hi
+मैं अपनी ज़िंदगी से बहुत संतुष्ट हूँ,happy,hi
+நான் இன்று மிகவும் மகிழ்ச்சியாக இருக்கிறேன்,happy,ta
+இன்றைய நாள் அருமையாக இருந்தது,happy,ta
+எனக்கு நல்ல செய்தி கிடைத்தது நான் உற்சாகமாக இருக்கிறேன்,happy,ta
+எல்லாமே எனக்கு நன்றாக இருக்கிறது,happy,ta
+என் வாழ்க்கையில் நான் திருப்தியாக இருக்கிறேன்,happy,ta
+मुझे आज बहुत अकेलापन लग रहा है,sad,hi
+मुझे कुछ भी अच्छा नहीं लगता,sad,hi
+मैं बहुत उदास हूँ,sad,hi
+मेरा मन बहुत भारी है,sad,hi
+मुझे रोना आ रहा है,sad,hi
+मुझे कल की बहुत चिंता हो रही है,anxious,hi
+मुझे डर लग रहा है कि कुछ बुरा होगा,anxious,hi
+मेरा दिल तेज़ धड़क रहा है और घबराहट हो रही है,anxious,hi
+मुझे रात को चिंता के कारण नींद नहीं आती,anxious,hi
+मैं भविष्य के बारे में बहुत सोचता रहता हूँ,anxious,hi
+मुझे बहुत गुस्सा आ रहा है,angry,hi
+मैं इस बात से बहुत नाराज़ हूँ,angry,hi
+मुझे सबसे चिढ़ हो रही है,angry,hi
+उसने मेरा अपमान किया और मुझे बहुत ग़ुस्सा आया,angry,hi
+मैं अब और बर्दाश्त नहीं कर सकता,angry,hi
+मुझ पर काम का बहुत दबाव है,stressed,hi
+परीक्षा की वजह से मैं बहुत तनाव में हूँ,stressed,hi
+मेरे पास समय बहुत कम है और काम बहुत ज़्यादा,stressed,hi
+मुझसे यह सब संभाला नहीं जा रहा,stressed,hi
+डेडलाइन ने मुझे परेशान कर दिया है,stressed,hi
+मैं आज कॉलेज गया था,neutral,hi
+मैं किताब पढ़ रहा हूँ,neutral,hi
+मैंने दोपहर में खाना खाया,neutral,hi
+आज एक सामान्य दिन है,neutral,hi
+मैं अपनी मेज़ पर बैठा हूँ,neutral,hi
+എനിക്ക് ഇന്ന് വല്ലാത്ത ഏകാന്തത തോന്നുന്നു,sad,ml
+ഒന്നും എനിക്ക് സന്തോഷം തരുന്നില്ല,sad,ml
+ഞാൻ വളരെ സങ്കടത്തിലാണ്,sad,ml
+എന്റെ മനസ്സ് വളരെ ഭാരമുള്ളതാണ്,sad,ml
+എനിക്ക് കരച്ചിൽ വരുന്നു,sad,ml
+നാളെയെക്കുറിച്ച് എനിക്ക് വലിയ ആശങ്കയുണ്ട്,anxious,ml
+എന്തെങ്കിലും മോശമായി സംഭവിക്കുമോ എന്ന് എനിക്ക് പേടിയാണ്,anxious,ml
+എന്റെ ഹൃദയം വേഗത്തിൽ മിടിക്കുന്നു എനിക്ക് പരിഭ്രമമാണ്,anxious,ml
+ആശങ്ക കാരണം രാത്രി എനിക്ക് ഉറക്കം വരുന്നില്ല,anxious,ml
+ഭാവിയെക്കുറിച്ച് ഞാൻ ഒരുപാട് ചിന്തിക്കുന്നു,anxious,ml
+എനിക്ക് വല്ലാതെ ദേഷ്യം വരുന്നു,angry,ml
+ഈ കാര്യത്തിൽ ഞാൻ വളരെ അസ്വസ്ഥനാണ്,angry,ml
+എല്ലാവരോടും എനിക്ക് ദേഷ്യം തോന്നുന്നു,angry,ml
+അവൻ എന്നെ അപമാനിച്ചു എനിക്ക് കോപം വന്നു,angry,ml
+ഇനി എനിക്ക് സഹിക്കാൻ കഴിയില്ല,angry,ml
+ഞാൻ ഇന്ന് വളരെ സന്തോഷത്തിലാണ്,happy,ml
+ഇന്നത്തെ ദിവസം അടിപൊളിയായിരുന്നു,happy,ml
+എനിക്ക് നല്ല വാർത്ത കിട്ടി ഞാൻ ആവേശത്തിലാണ്,happy,ml
+എല്ലാം എനിക്ക് നല്ലതായി തോന്നുന്നു,happy,ml
+എന്റെ ജീവിതത്തിൽ ഞാൻ സംതൃപ്തനാണ്,happy,ml
+എന്റെ മേൽ ജോലിഭാരം വളരെ കൂടുതലാണ്,stressed,ml
+പരീക്ഷ കാരണം ഞാൻ വലിയ സമ്മർദ്ദത്തിലാണ്,stressed,ml
+എനിക്ക് സമയം കുറവാണ് ജോലി കൂടുതലാണ്,stressed,ml
+ഇതെല്ലാം എനിക്ക് കൈകാര്യം ചെയ്യാൻ പറ്റുന്നില്ല,stressed,ml
+സമയപരിധി എന്നെ വല്ലാതെ വലയ്ക്കുന്നു,stressed,ml
+ഞാൻ ഇന്ന് കോളേജിൽ പോയി,neutral,ml
+ഞാൻ ഒരു പുസ്തകം വായിക്കുകയാണ്,neutral,ml
+ഞാൻ ഉച്ചയ്ക്ക് ഊണ് കഴിച്ചു,neutral,ml
+ഇന്ന് ഒരു സാധാരണ ദിവസമാണ്,neutral,ml
+ഞാൻ എന്റെ മേശയ്ക്കരികിൽ ഇരിക്കുകയാണ്,neutral,ml
+எனக்கு இன்று மிகவும் தனிமையாக இருக்கிறது,sad,ta
+எதுவும் எனக்கு சந்தோஷம் தருவதில்லை,sad,ta
+நான் மிகவும் சோகமாக இருக்கிறேன்,sad,ta
+என் மனம் மிகவும் கனமாக இருக்கிறது,sad,ta
+எனக்கு அழுகை வருகிறது,sad,ta
+நாளையைப் பற்றி எனக்கு மிகவும் கவலையாக இருக்கிறது,anxious,ta
+ஏதாவது கெட்டது நடக்கும் என்று பயமாக இருக்கிறது,anxious,ta
+என் இதயம் வேகமாகத் துடிக்கிறது பதற்றமாக இருக்கிறது,anxious,ta
+கவலையால் எனக்கு இரவு தூக்கம் வரவில்லை,anxious,ta
+எதிர்காலத்தைப் பற்றி நான் அதிகம் யோசிக்கிறேன்,anxious,ta
+எனக்கு மிகவும் கோபமாக வருகிறது,angry,ta
+இந்த விஷயத்தால் நான் மிகவும் எரிச்சலடைந்திருக்கிறேன்,angry,ta
+எல்லோர் மீதும் எனக்கு கோபம் வருகிறது,angry,ta
+அவன் என்னை அவமதித்தான் எனக்கு ஆத்திரம் வந்தது,angry,ta
+இனி என்னால் பொறுத்துக்கொள்ள முடியாது,angry,ta
+எனக்கு வேலை அழுத்தம் மிக அதிகமாக இருக்கிறது,stressed,ta
+தேர்வு காரணமாக நான் மிகவும் மன அழுத்தத்தில் இருக்கிறேன்,stressed,ta
+எனக்கு நேரம் குறைவு வேலை அதிகம்,stressed,ta
+இதையெல்லாம் என்னால் சமாளிக்க முடியவில்லை,stressed,ta
+காலக்கெடு என்னை திணறடிக்கிறது,stressed,ta
+நான் இன்று கல்லூரிக்குச் சென்றேன்,neutral,ta
+நான் ஒரு புத்தகம் படித்துக்கொண்டிருக்கிறேன்,neutral,ta
+நான் மதியம் சாப்பிட்டேன்,neutral,ta
+இன்று ஒரு சாதாரண நாள்,neutral,ta
+நான் என் மேசையில் உட்கார்ந்திருக்கிறேன்,neutral,ta
+నాకు ఈ రోజు చాలా ఒంటరిగా అనిపిస్తోంది,sad,te
+ఏదీ నాకు సంతోషం ఇవ్వడం లేదు,sad,te
+నేను చాలా బాధగా ఉన్నాను,sad,te
+నా మనసు చాలా బరువుగా ఉంది,sad,te
+నాకు ఏడుపు వస్తోంది,sad,te
+రేపటి గురించి నాకు చాలా ఆందోళనగా ఉంది,anxious,te
+ఏదో చెడు జరుగుతుందేమో అని భయంగా ఉంది,anxious,te
+నా గుండె వేగంగా కొట్టుకుంటోంది కంగారుగా ఉంది,anxious,te
+ఆందోళన వల్ల రాత్రి నాకు నిద్ర రావడం లేదు,anxious,te
+భవిష్యత్తు గురించి నేను ఎక్కువగా ఆలోచిస్తున్నాను,anxious,te
+నాకు చాలా కోపంగా ఉంది,angry,te
+ఈ విషయం వల్ల నేను చాలా చిరాకుగా ఉన్నాను,angry,te
+అందరిపై నాకు కోపం వస్తోంది,angry,te
+అతను నన్ను అవమానించాడు నాకు ఆగ్రహం వచ్చింది,angry,te
+ఇక నేను భరించలేను,angry,te
+నేను ఈ రోజు చాలా సంతోషంగా ఉన్నాను,happy,te
+ఈ రోజు చాలా అద్భుతంగా గడిచింది,happy,te
+నాకు శుభవార్త వచ్చింది చాలా ఉత్సాహంగా ఉంది,happy,te
+అంతా నాకు బాగా అనిపిస్తోంది,happy,te
+నా జీవితంతో నేను తృప్తిగా ఉన్నాను,happy,te
+నాపై పని ఒత్తిడి చాలా ఎక్కువగా ఉంది,stressed,te
+పరీక్షల వల్ల నేను చాలా ఒత్తిడిలో ఉన్నాను,stressed,te
+నాకు సమయం తక్కువ పని ఎక్కువ,stressed,te
+ఇదంతా నేను తట్టుకోలేకపోతున్నాను,stressed,te
+గడువులు నన్ను ఊపిరి ఆడనివ్వడం లేదు,stressed,te
+నేను ఈ రోజు కాలేజీకి వెళ్ళాను,neutral,te
+నేను పుస్తకం చదువుతున్నాను,neutral,te
+నేను మధ్యాహ్నం భోజనం చేశాను,neutral,te
+ఈ రోజు ఒక సాధారణ రోజు,neutral,te
+నేను నా డెస్క్ దగ్గర కూర్చున్నాను,neutral,te
+ನನಗೆ ಇಂದು ತುಂಬಾ ಒಂಟಿತನ ಅನಿಸುತ್ತಿದೆ,sad,kn
+ಯಾವುದೂ ನನಗೆ ಖುಷಿ ಕೊಡುತ್ತಿಲ್ಲ,sad,kn
+ನಾನು ತುಂಬಾ ದುಃಖದಲ್ಲಿದ್ದೇನೆ,sad,kn
+ನನ್ನ ಮನಸ್ಸು ತುಂಬಾ ಭಾರವಾಗಿದೆ,sad,kn
+ನನಗೆ ಅಳು ಬರುತ್ತಿದೆ,sad,kn
+ನಾಳೆಯ ಬಗ್ಗೆ ನನಗೆ ತುಂಬಾ ಚಿಂತೆಯಾಗಿದೆ,anxious,kn
+ಏನೋ ಕೆಟ್ಟದು ಆಗುತ್ತದೆ ಎಂಬ ಭಯ ನನಗಿದೆ,anxious,kn
+ನನ್ನ ಹೃದಯ ವೇಗವಾಗಿ ಬಡಿಯುತ್ತಿದೆ ಗಾಬರಿಯಾಗುತ್ತಿದೆ,anxious,kn
+ಚಿಂತೆಯಿಂದ ರಾತ್ರಿ ನನಗೆ ನಿದ್ರೆ ಬರುತ್ತಿಲ್ಲ,anxious,kn
+ಭವಿಷ್ಯದ ಬಗ್ಗೆ ನಾನು ತುಂಬಾ ಯೋಚಿಸುತ್ತಿದ್ದೇನೆ,anxious,kn
+ನನಗೆ ತುಂಬಾ ಕೋಪ ಬರುತ್ತಿದೆ,angry,kn
+ಈ ವಿಷಯದಿಂದ ನಾನು ತುಂಬಾ ಕಿರಿಕಿರಿಗೊಂಡಿದ್ದೇನೆ,angry,kn
+ಎಲ್ಲರ ಮೇಲೆ ನನಗೆ ಸಿಟ್ಟು ಬರುತ್ತಿದೆ,angry,kn
+ಅವನು ನನ್ನನ್ನು ಅವಮಾನಿಸಿದ ನನಗೆ ಕೋಪ ಬಂತು,angry,kn
+ಇನ್ನು ನನ್ನಿಂದ ಸಹಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ,angry,kn
+ನಾನು ಇಂದು ತುಂಬಾ ಖುಷಿಯಾಗಿದ್ದೇನೆ,happy,kn
+ಇಂದಿನ ದಿನ ಅದ್ಭುತವಾಗಿತ್ತು,happy,kn
+ನನಗೆ ಒಳ್ಳೆಯ ಸುದ್ದಿ ಸಿಕ್ಕಿದೆ ನಾನು ಉತ್ಸಾಹದಲ್ಲಿದ್ದೇನೆ,happy,kn
+ಎಲ್ಲವೂ ನನಗೆ ಚೆನ್ನಾಗಿ ಅನಿಸುತ್ತಿದೆ,happy,kn
+ನನ್ನ ಜೀವನದಲ್ಲಿ ನಾನು ತೃಪ್ತನಾಗಿದ್ದೇನೆ,happy,kn
+ನನ್ನ ಮೇಲೆ ಕೆಲಸದ ಒತ್ತಡ ತುಂಬಾ ಹೆಚ್ಚಾಗಿದೆ,stressed,kn
+ಪರೀಕ್ಷೆಯ ಕಾರಣ ನಾನು ತುಂಬಾ ಒತ್ತಡದಲ್ಲಿದ್ದೇನೆ,stressed,kn
+ನನಗೆ ಸಮಯ ಕಡಿಮೆ ಕೆಲಸ ಹೆಚ್ಚು,stressed,kn
+ಇದೆಲ್ಲವನ್ನು ನನ್ನಿಂದ ನಿಭಾಯಿಸಲು ಆಗುತ್ತಿಲ್ಲ,stressed,kn
+ಗಡುವುಗಳು ನನ್ನನ್ನು ಕಂಗೆಡಿಸಿವೆ,stressed,kn
+ನಾನು ಇಂದು ಕಾಲೇಜಿಗೆ ಹೋದೆ,neutral,kn
+ನಾನು ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೇನೆ,neutral,kn
+ನಾನು ಮಧ್ಯಾಹ್ನ ಊಟ ಮಾಡಿದೆ,neutral,kn
+ಇಂದು ಒಂದು ಸಾಮಾನ್ಯ ದಿನ,neutral,kn
+ನಾನು ನನ್ನ ಮೇಜಿನ ಬಳಿ ಕುಳಿತಿದ್ದೇನೆ,neutral,kn
+আজ আমার খুব একা লাগছে,sad,bn
+কিছুই আমাকে আনন্দ দিচ্ছে না,sad,bn
+আমি খুব দুঃখী,sad,bn
+আমার মন খুব ভারী হয়ে আছে,sad,bn
+আমার কান্না পাচ্ছে,sad,bn
+আগামীকালের জন্য আমার খুব দুশ্চিন্তা হচ্ছে,anxious,bn
+আমার ভয় লাগছে যে খারাপ কিছু হবে,anxious,bn
+আমার বুক ধড়ফড় করছে খুব ঘাবড়ে যাচ্ছি,anxious,bn
+দুশ্চিন্তার জন্য রাতে আমার ঘুম আসে না,anxious,bn
+আমি ভবিষ্যৎ নিয়ে অনেক ভাবি,anxious,bn
+আমার খুব রাগ হচ্ছে,angry,bn
+এই ব্যাপারটায় আমি খুব বিরক্ত,angry,bn
+সবার উপর আমার রাগ হচ্ছে,angry,bn
+সে আমাকে অপমান করেছে আমার প্রচণ্ড রাগ হয়েছে,angry,bn
+আমি আর সহ্য করতে পারছি না,angry,bn
+আমি আজ খুব খুশি,happy,bn
+আজকের দিনটা দারুণ কেটেছে,happy,bn
+আমি ভালো খবর পেয়েছি খুব উত্তেজিত,happy,bn
+সবকিছু আমার খুব ভালো লাগছে,happy,bn
+আমি আমার জীবনে সন্তুষ্ট,happy,bn
+আমার উপর কাজের চাপ অনেক বেশি,stressed,bn
+পরীক্ষার জন্য আমি খুব মানসিক চাপে আছি,stressed,bn
+আমার সময় কম কাজ অনেক,stressed,bn
+আমি এসব সামলাতে পারছি না,stressed,bn
+সময়সীমা আমাকে হাঁপিয়ে তুলেছে,stressed,bn
+আমি আজ কলেজে গিয়েছিলাম,neutral,bn
+আমি একটা বই পড়ছি,neutral,bn
+আমি দুপুরে খাবার খেয়েছি,neutral,bn
+আজ একটা সাধারণ দিন,neutral,bn
+আমি আমার ডেস্কে বসে আছি,neutral,bn
+मला आज खूप एकटे वाटत आहे,sad,mr
+मला काहीच आनंद देत नाही,sad,mr
+मी खूप दुःखी आहे,sad,mr
+माझे मन खूप जड झाले आहे,sad,mr
+मला रडू येत आहे,sad,mr
+मला उद्याची खूप काळजी वाटत आहे,anxious,mr
+काहीतरी वाईट होईल अशी मला भीती वाटते,anxious,mr
+माझे हृदय जोरात धडधडत आहे मला घाबरल्यासारखे वाटत आहे,anxious,mr
+काळजीमुळे मला रात्री झोप येत नाही,anxious,mr
+मी भविष्याबद्दल खूप विचार करतो,anxious,mr
+मला खूप राग येत आहे,angry,mr
+या गोष्टीमुळे मी खूप चिडलो आहे,angry,mr
+मला सगळ्यांचा राग येत आहे,angry,mr
+त्याने माझा अपमान केला आणि मला खूप संताप आला,angry,mr
+आता मला हे सहन होत नाही,angry,mr
+मी आज खूप आनंदी आहे,happy,mr
+आजचा दिवस छान गेला,happy,mr
+मला चांगली बातमी मिळाली आहे आणि मी उत्साहित आहे,happy,mr
+मला सर्व काही खूप छान वाटत आहे,happy,mr
+मी माझ्या आयुष्यात समाधानी आहे,happy,mr
+माझ्यावर कामाचा खूप ताण आहे,stressed,mr
+परीक्षेमुळे मी खूप तणावात आहे,stressed,mr
+माझ्याकडे वेळ कमी आणि काम जास्त आहे,stressed,mr
+मला हे सगळं सांभाळता येत नाही,stressed,mr
+मुदतींमुळे मी हैराण झालो आहे,stressed,mr
+मी आज कॉलेजला गेलो होतो,neutral,mr
+मी पुस्तक वाचत आहे,neutral,mr
+मी दुपारी जेवण केले,neutral,mr
+आज एक सामान्य दिवस आहे,neutral,mr
+मी माझ्या टेबलावर बसलो आहे,neutral,mr
+મને આજે બહુ એકલું લાગે છે,sad,gu
+મને કશું જ ખુશી આપતું નથી,sad,gu
+હું બહુ ઉદાસ છું,sad,gu
+મારું મન બહુ ભારે છે,sad,gu
+મને રડવું આવે છે,sad,gu
+મને આવતીકાલની બહુ ચિંતા થાય છે,anxious,gu
+મને ડર લાગે છે કે કંઈક ખરાબ થશે,anxious,gu
+મારું હૃદય જોરથી ધબકે છે મને ગભરાટ થાય છે,anxious,gu
+ચિંતાને કારણે મને રાત્રે ઊંઘ આવતી નથી,anxious,gu
+હું ભવિષ્ય વિશે બહુ વિચારું છું,anxious,gu
+મને બહુ ગુસ્સો આવે છે,angry,gu
+આ વાતથી હું બહુ નારાજ છું,angry,gu
+મને બધા પર ગુસ્સો આવે છે,angry,gu
+તેણે મારું અપમાન કર્યું અને મને બહુ ગુસ્સો આવ્યો,angry,gu
+હવે હું સહન કરી શકતો નથી,angry,gu
+હું આજે બહુ ખુશ છું,happy,gu
+આજનો દિવસ બહુ સરસ રહ્યો,happy,gu
+મને સારા સમાચાર મળ્યા છે અને હું ઉત્સાહિત છું,happy,gu
+મને બધું બહુ સારું લાગે છે,happy,gu
+હું મારા જીવનથી સંતુષ્ટ છું,happy,gu
+મારા પર કામનું બહુ દબાણ છે,stressed,gu
+પરીક્ષાને કારણે હું બહુ તણાવમાં છું,stressed,gu
+મારી પાસે સમય ઓછો અને કામ વધારે છે,stressed,gu
+મારાથી આ બધું સંભાળાતું નથી,stressed,gu
+સમયમર્યાદાએ મને હેરાન કરી દીધો છે,stressed,gu
+હું આજે કૉલેજ ગયો હતો,neutral,gu
+હું પુસ્તક વાંચી રહ્યો છું,neutral,gu
+મેં બપોરે જમ્યું,neutral,gu
+આજે એક સામાન્ય દિવસ છે,neutral,gu
+હું મારા ટેબલ પર બેઠો છું,neutral,gu
+ਮੈਨੂੰ ਅੱਜ ਬਹੁਤ ਇਕੱਲਾਪਣ ਮਹਿਸੂਸ ਹੋ ਰਿਹਾ ਹੈ,sad,pa
+ਮੈਨੂੰ ਕੁਝ ਵੀ ਚੰਗਾ ਨਹੀਂ ਲੱਗਦਾ,sad,pa
+ਮੈਂ ਬਹੁਤ ਉਦਾਸ ਹਾਂ,sad,pa
+ਮੇਰਾ ਮਨ ਬਹੁਤ ਭਾਰੀ ਹੈ,sad,pa
+ਮੈਨੂੰ ਰੋਣਾ ਆ ਰਿਹਾ ਹੈ,sad,pa
+ਮੈਨੂੰ ਕੱਲ੍ਹ ਦੀ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ,anxious,pa
+ਮੈਨੂੰ ਡਰ ਲੱਗ ਰਿਹਾ ਹੈ ਕਿ ਕੁਝ ਬੁਰਾ ਹੋਵੇਗਾ,anxious,pa
+ਮੇਰਾ ਦਿਲ ਤੇਜ਼ ਧੜਕ ਰਿਹਾ ਹੈ ਅਤੇ ਘਬਰਾਹਟ ਹੋ ਰਹੀ ਹੈ,anxious,pa
+ਚਿੰਤਾ ਕਰਕੇ ਮੈਨੂੰ ਰਾਤ ਨੂੰ ਨੀਂਦ ਨਹੀਂ ਆਉਂਦੀ,anxious,pa
+ਮੈਂ ਭਵਿੱਖ ਬਾਰੇ ਬਹੁਤ ਸੋਚਦਾ ਰਹਿੰਦਾ ਹਾਂ,anxious,pa
+ਮੈਨੂੰ ਬਹੁਤ ਗੁੱਸਾ ਆ ਰਿਹਾ ਹੈ,angry,pa
+ਮੈਂ ਇਸ ਗੱਲ ਤੋਂ ਬਹੁਤ ਨਾਰਾਜ਼ ਹਾਂ,angry,pa
+ਮੈਨੂੰ ਸਾਰਿਆਂ ਉੱਤੇ ਖਿਝ ਆ ਰਹੀ ਹੈ,angry,pa
+ਉਸ ਨੇ ਮੇਰਾ ਅਪਮਾਨ ਕੀਤਾ ਅਤੇ ਮੈਨੂੰ ਬਹੁਤ ਗੁੱਸਾ ਆਇਆ,angry,pa
+ਹੁਣ ਮੈਂ ਹੋਰ ਬਰਦਾਸ਼ਤ ਨਹੀਂ ਕਰ ਸਕਦਾ,angry,pa
+ਮੈਂ ਅੱਜ ਬਹੁਤ ਖੁਸ਼ ਹਾਂ,happy,pa
+ਅੱਜ ਦਾ ਦਿਨ ਬਹੁਤ ਵਧੀਆ ਰਿਹਾ,happy,pa
+ਮੈਨੂੰ ਚੰਗੀ ਖ਼ਬਰ ਮਿਲੀ ਹੈ ਅਤੇ ਮੈਂ ਉਤਸ਼ਾਹਿਤ ਹਾਂ,happy,pa
+ਮੈਨੂੰ ਸਭ ਕੁਝ ਬਹੁਤ ਵਧੀਆ ਲੱਗ ਰਿਹਾ ਹੈ,happy,pa
+ਮੈਂ ਆਪਣੀ ਜ਼ਿੰਦਗੀ ਤੋਂ ਸੰਤੁਸ਼ਟ ਹਾਂ,happy,pa
+ਮੇਰੇ ਉੱਤੇ ਕੰਮ ਦਾ ਬਹੁਤ ਦਬਾਅ ਹੈ,stressed,pa
+ਪੇਪਰਾਂ ਕਰਕੇ ਮੈਂ ਬਹੁਤ ਤਣਾਅ ਵਿੱਚ ਹਾਂ,stressed,pa
+ਮੇਰੇ ਕੋਲ ਸਮਾਂ ਘੱਟ ਅਤੇ ਕੰਮ ਬਹੁਤ ਹੈ,stressed,pa
+ਮੇਰੇ ਤੋਂ ਇਹ ਸਭ ਸੰਭਾਲਿਆ ਨਹੀਂ ਜਾ ਰਿਹਾ,stressed,pa
+ਆਖ਼ਰੀ ਤਾਰੀਖਾਂ ਨੇ ਮੈਨੂੰ ਪਰੇਸ਼ਾਨ ਕਰ ਦਿੱਤਾ ਹੈ,stressed,pa
+ਮੈਂ ਅੱਜ ਕਾਲਜ ਗਿਆ ਸੀ,neutral,pa
+ਮੈਂ ਕਿਤਾਬ ਪੜ੍ਹ ਰਿਹਾ ਹਾਂ,neutral,pa
+ਮੈਂ ਦੁਪਹਿਰ ਨੂੰ ਖਾਣਾ ਖਾਧਾ,neutral,pa
+ਅੱਜ ਇੱਕ ਆਮ ਦਿਨ ਹੈ,neutral,pa
+ਮੈਂ ਆਪਣੇ ਮੇਜ਼ ਉੱਤੇ ਬੈਠਾ ਹਾਂ,neutral,pa

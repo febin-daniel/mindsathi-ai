@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MindSathi Admin Login</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body style="padding:24px; max-width:420px; margin:auto;">
+  <h1>Admin login</h1>
+  {% if error %}<p style="color:#b00020;">{{ error }}</p>{% endif %}
+  <form method="post">
+    <p><input type="password" name="password" placeholder="Admin password" required style="width:100%;"></p>
+    <p><button type="submit">Log in</button></p>
+  </form>
+</body>
+</html>
